@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="Stylesheet" href="css/style-accessibility.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Accessibility</title>
+  </head>
+
+  <body>
+    <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    ''''''''''''''''''''''''''''''''''''''''''''''''''''HEADER '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' -->
+
+    <header class="header">
+      <a href="index.html">
+        <img
+          class="logo"
+          alt="Oslomet logo"
+          src="img/logos/1200px-Logo_of_Oslo_Metropolitan_University.svg.png"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="index.html" class="main-nav-link">Home Page</a></li>
+          <li>
+            <a href="reflection.html" class="main-nav-link">Reflection Essay</a>
+          </li>
+          <li>
+            <a href="accessibility.html" class="main-nav-link nav-place"
+              >Accessibility</a
+            >
+          </li>
+          <li>
+            <a href="topical.html" class="main-nav-link">Topical Information</a>
+          </li>
+          <li><a href="fun.html" class="main-nav-link nav-fun">Fun Page</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+      '''''''''''''''''''''''''''''''''''''''''''''' HERO ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+      <section class="section-hero">
+        <div class="hero-container container">
+          <h1 class="heading-primary">Our Accessibility design decisions</h1>
+          <p class="subheading">
+            From Typography too color contrast, in this page we discuss our
+            attemts to make our page as accsessible as possible.
+          </p>
+        </div>
+      </section>
+
+      <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+      '''''''''''''''''''''''''''''''''''''''''''''' MAIN ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+
+      <!-- INTRO  -->
+      <section class="section-access">
+        <div class="container intro">
+          <h2 class="heading-secondary heading-intro">Introduction</h2>
+          <p class="intro-txt access-description">
+            Below we explain our accessibility choices. The steps are in
+            importance order, so we tried to show our thought process through
+            theese steps below, where number 1 is most important and so on. We
+            recognize that every step is as important as the other, but this is
+            how we went through our accessibility design. <br />
+            <br />
+            We tried to design our page with accessibility in mind from the get
+            go, and below we wil discuss the changes we made after checking
+            accessibility through a WCAG checker.
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="grid grid--2-cols grid--center-vert grid-first">
+            <!-- STEP 1 -->
+
+            <div class="img-box">
+              <img
+                class="access-img"
+                src="img/access-page/brett-jordan-unsplash-typo.jpg"
+                alt="a nice picture of some bold text on paper"
+              />
+            </div>
+            <div class="txt-box">
+              <p class="access-number">01</p>
+              <h3 class="heading-tertiary">Typography and colors</h3>
+              <p class="access-description">
+                Our good teacher Carlos taught us that good color contrast is
+                key for accessebility. So every color that is chosen on our page
+                is checked for contrast throgh
+                <a
+                  target="blank"
+                  class="link"
+                  href="https://coolors.co/contrast-checker/333333-ffffff"
+                  >Coolors contrast checker</a
+                >
+                <br />
+                <br />
+                In Addition <strong>our typeface "rubik" </strong> was chosen
+                due to its more playful <em>circular style</em> with a falback
+                typeface of sans-serif. We made sure all text had excelent color
+                contrast, and was big enough for me to se without glasses!
+              </p>
+            </div>
+
+            <!-- STEP 2 -->
+
+            <div class="txt-box">
+              <p class="access-number">02</p>
+              <h3 class="heading-tertiary">Consistency in design</h3>
+              <p class="access-description">
+                We know a person with visual disibility and actually consoulted
+                her for feedback on what is important. For starters
+              </p>
+              <ul class="ul-access">
+                <li class="access-description">
+                  Accessibility in mind from the get go
+                </li>
+                <li class="access-description">all images have alt text</li>
+                <li class="access-description">
+                  the NAV is easily identifiable, and consistent throught-out
+                  the page
+                </li>
+                <li class="access-description">
+                  page is manouverable with a keybord, and your eyes closed
+                </li>
+              </ul>
+            </div>
+
+            <div class="img-box img-box-reverse">
+              <img
+                class="access-img access-img2"
+                src="img/access-page/hal-gatewood-unsplash (1).jpg"
+                alt="some hand drawn web-page sketches on a peice of paper"
+              />
+            </div>
+
+            <!-- STEP 3 -->
+
+            <div class="img-box">
+              <img
+                class="access-img"
+                src="img/access-page/scott-graham-unsplash (1).jpg"
+                alt="A picture of business peaple discussing websketches and content"
+              />
+            </div>
+            <div class="txt-box">
+              <p class="access-number">03</p>
+              <h3 class="heading-tertiary">Content and performance</h3>
+              <p class="access-description">
+                For Content, we made sure that no essential content is conveyed
+                via images. All essential content is either a strong or a em
+                tag. <br />
+                <br />For performance we the
+                <a target="blank" class="link" href="https://squoosh.app/"
+                  >Squoosh app</a
+                >
+                in order to compress and resize needlessly big images, so that
+                the page may runn faster. We acctually saw a significant
+                performance enhancment due to this big effort.
+              </p>
+            </div>
+
+            <!-- STEP 4 -->
+
+            <div class="txt-box">
+              <p class="access-number">04</p>
+              <h3 class="heading-tertiary">
+                A little note about code management
+              </h3>
+              <p class="access-description">
+                We tried our hardest to ensure the code is easily maintanable.
+                Our steps listed below (ranked in what we think helped the
+                most), feel free to check the code in the ZIP aswell.
+              </p>
+              <ol class="ul-access">
+                <li class="access-description">
+                  Organize all the css, html and img files.
+                </li>
+                <li class="access-description">
+                  Have a general css file thats linked to all html files
+                  (extremely helpful)
+                </li>
+                <li class="access-description">
+                  Leave some comments to seperate the sections of the page in
+                  the code
+                </li>
+                <li class="access-description">
+                  Have all images from the copyright free site
+                  <a
+                    class="link"
+                    target="blank"
+                    href="https://unsplash.com/license"
+                    >Unsplashed</a
+                  >
+                  in addtion to using our own pictures
+                </li>
+              </ol>
+            </div>
+
+            <div class="img-box img-box-reverse">
+              <img
+                class="access-img access-img2"
+                src="img/access-page/markus-spiske-Skf7HxARcoc-unsplash (1).jpg"
+                alt="Some crazy code on a screen, meant to symbolize that we need to organize code"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    '''''''''''''''''''''''''''''''''''''''''''''' Conclution ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+      <section class="section-conc">
+        <div class="container">
+          <h2 class="heading-secondary">
+            Conclution after using a WCAG validator
+          </h2>
+          <p class="access-description">
+            We used the
+            <a class="link" target="blank" href="https://wave.webaim.org/"
+              >Wave Web Accessibility Evaluation Tool</a
+            >
+            on all of our pages. We found that this checker was very releiable,
+            as well as letting us constantly check on our page during
+            development, due to the <strong>awsome</strong> the chrome
+            extention. We got minimal warnings and were very happy! But we had
+            two problems that we will explain below.
+          </p>
+
+          <ol class="ul-access">
+            <li class="access-description">
+              We have 3 errors, all are related to the instagram, twitter, and
+              facebook links in the footer. The stated error is "an empty link"
+              but we figured that the logo is self explanetory. We tried adding
+              <em> alt </em> text to the anchors but it didn't seem to do
+              anything so they were removed. Hence theese errors remain.
+            </li>
+            <li class="access-description">
+              Our second error was a contrast problem with the "fun-link" in our
+              main navigation. The problem was contrast related so we swiftly
+              changed the background to be more dark. You will be seeing the new
+              version of course. The old version was just ligther.
+            </li>
+          </ol>
+
+          <p class="access-description conc-desc-2">
+            To <strong>conclude</strong> the Wave Web Accessibility Evaluation
+            Tool is a very useful tool that we utelized during the latter part
+            of our development. We had minimal errors, and that was nice to see.
+            In addition we did some testing in
+            <strong>Microsoft edge and some iphones and androids</strong>, with
+            little to no errors. We thought this exam was a very good learning
+            experience, and we feel that we have good understanding of web
+            devopment!! 🙌
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!-- ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+      '''''''''''''''''''''''''''''''''''''''''''''' FOOTER ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''  -->
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="index.html" class="footer-logo">
+            <img
+              class="footer-logo"
+              alt="Oslometg logo"
+              src="img/logos/1200px-Logo_of_Oslo_Metropolitan_University.svg.png"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; 2021 by ExamWeb Inc. All rights reserved.
+          </p>
+        </div>
+
+        <div class="adress-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="adress">700 Dummy St. Oslo Norway, DU 9000</p>
+
+            <p>
+              <a class="footer-link" href="tel:999-999-9999">999-999-9999</a>
+              <br />
+              <a class="footer-link" href="mailto:dummy@oslomet.no"
+                >dummy@oslomet.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Page Map</p>
+          <ul class="footer-navigation">
+            <li><a class="footer-link" href="index.html">Home Page</a></li>
+            <li>
+              <a class="footer-link" href="reflection.html">Reflection Essay</a>
+            </li>
+            <li>
+              <a class="footer-link" href="accessibility.html">Accessibility</a>
+            </li>
+            <li>
+              <a class="footer-link" href="topical.html">Topical Information</a>
+            </li>
+            <li><a class="footer-link" href="fun.html">Fun Page</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
