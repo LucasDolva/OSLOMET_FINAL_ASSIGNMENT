@@ -16,7 +16,7 @@
 
 .backgrounder-top {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(17, 17, 17, 0.1)),
-    url(/img/fun-page/ales-krivechec-header-pic-unsplash.jpg);
+    url(../img/fun-page/ales-krivechec-header-pic-unsplash.jpg);
 
   background-size: cover;
 }
