@@ -7,7 +7,7 @@
   height: 90vh;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(17, 17, 17, 0.753)),
-    url(/img/main-page-pic/p32-background.jpg);
+    url(../img/main-page-pic/p32-background.jpg);
 
   background-size: cover;
   display: flex;
