@@ -1,2 +1,4 @@
 # OSLOMET_FINAL_ASSIGNMENT
-9899
+Group 9899 
+
+No pictures show who we are, we are not mentioned in any place on the site, it remains annonymous. 
